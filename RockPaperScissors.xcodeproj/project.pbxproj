@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		ED3A4E191A01B7E5002B8AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4E181A01B7E5002B8AA1 /* AppDelegate.swift */; };
-		ED3A4E1B1A01B7E5002B8AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4E1A1A01B7E5002B8AA1 /* ViewController.swift */; };
 		ED3A4E1E1A01B7E5002B8AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3A4E1C1A01B7E5002B8AA1 /* Main.storyboard */; };
 		ED3A4E201A01B7E5002B8AA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3A4E1F1A01B7E5002B8AA1 /* Images.xcassets */; };
 		ED3A4E231A01B7E5002B8AA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A4E211A01B7E5002B8AA1 /* LaunchScreen.xib */; };
 		ED3A4E2F1A01B7E5002B8AA1 /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4E2E1A01B7E5002B8AA1 /* RockPaperScissorsTests.swift */; };
+		EDA5EFB31A02B4F200AABA2F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5EFB21A02B4F200AABA2F /* ResultViewController.swift */; };
+		EDA5EFB51A02BFB800AABA2F /* RockPaperScissorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5EFB41A02BFB800AABA2F /* RockPaperScissorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		ED3A4E131A01B7E5002B8AA1 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3A4E171A01B7E5002B8AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3A4E181A01B7E5002B8AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED3A4E1A1A01B7E5002B8AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED3A4E1D1A01B7E5002B8AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED3A4E1F1A01B7E5002B8AA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED3A4E221A01B7E5002B8AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED3A4E281A01B7E5002B8AA1 /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3A4E2D1A01B7E5002B8AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3A4E2E1A01B7E5002B8AA1 /* RockPaperScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsTests.swift; sourceTree = "<group>"; };
+		EDA5EFB21A02B4F200AABA2F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		EDA5EFB41A02BFB800AABA2F /* RockPaperScissorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				ED3A4E181A01B7E5002B8AA1 /* AppDelegate.swift */,
-				ED3A4E1A1A01B7E5002B8AA1 /* ViewController.swift */,
 				ED3A4E1C1A01B7E5002B8AA1 /* Main.storyboard */,
 				ED3A4E1F1A01B7E5002B8AA1 /* Images.xcassets */,
 				ED3A4E211A01B7E5002B8AA1 /* LaunchScreen.xib */,
 				ED3A4E161A01B7E5002B8AA1 /* Supporting Files */,
+				EDA5EFB21A02B4F200AABA2F /* ResultViewController.swift */,
+				EDA5EFB41A02BFB800AABA2F /* RockPaperScissorsViewController.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3A4E1B1A01B7E5002B8AA1 /* ViewController.swift in Sources */,
 				ED3A4E191A01B7E5002B8AA1 /* AppDelegate.swift in Sources */,
+				EDA5EFB31A02B4F200AABA2F /* ResultViewController.swift in Sources */,
+				EDA5EFB51A02BFB800AABA2F /* RockPaperScissorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				ED3A4E341A01B7E5002B8AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED3A4E351A01B7E5002B8AA1 /* Build configuration list for PBXNativeTarget "RockPaperScissorsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				ED3A4E371A01B7E5002B8AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
